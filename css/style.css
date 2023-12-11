@@ -18,10 +18,14 @@ header {
   background-repeat: no-repeat;
   margin-left: 10px;
   width: 20%;
-}
+ }
 
 a {
   color: white;
+}
+
+br { 
+  display: none; 
 }
 
 .myName {
@@ -29,7 +33,7 @@ a {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 35px;
   line-height: 1.5;
-  width: 18%;
+  width: 30%;
   align-items: center;
   justify-content: right;
   padding-right: 10px;
@@ -82,19 +86,6 @@ body {
   line-height: 1.5;
 }
 
-.page-wrapper h2{
-  float: right;
-  width: calc(100% - 300px);
-}
-
-.page-wrapper p {
-  display: flex;
-  justify-content: flex-end;
-  width: 70%;
-  margin: 0;
-}
-
-
 h1,
 h2,
 h3,
@@ -104,3 +95,89 @@ h6 {
   margin: 0;
 }
 
+/* Grid Area */
+
+#categoryGrid {
+  margin: 5px;
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  grid-template-rows: 300px 300px 300px;
+  grid-template-areas: 
+  "coderefracting coderefracting"
+  "studyguide calculator"
+  "week3 week4";
+}
+
+#coderefracting {
+  grid-area: coderefracting;
+  background-image: url(../images/02-portfolio-1.jpg);
+}
+
+#studyguide {
+  grid-area: studyguide;
+  background-image: url(../images/02-portfolio-2.jpg);
+}
+
+#calculator {
+  grid-area: calculator;
+  background-image: url(../images/02-portfolio-3.jpg);
+}
+
+#week3 {
+  grid-area: week3;
+  background-image: url(../images/02-portfolio-4.jpg);
+}
+
+#week4 {
+  grid-area: week4;
+  background-image: url(../images/02-run-buddy.jpg);
+}
+
+.categoryGridArea {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 5px;
+  cursor: pointer;
+  display: grid;
+  align-content: end;
+}
+
+/* for mobile phones */
+@media only screen and (max-width: 600px) {
+    #categoryGrid {
+    grid-template-rows: 300px 300px 300px 300px 300px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    'coderefracting'
+    'studyguide'
+    'calculator'
+    'week3'
+    'week4'
+    ;
+  }
+    .coolSubtitle {
+      display: none;
+  }
+    .avatar {
+      display: none;
+    }
+    .nav ul li {
+      display: inline-block; 
+    }
+    header nav {
+      font-size: 14px;
+      
+    }
+    .myName {
+      display: flex;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-size: 14px;
+      align-items: center;
+      justify-content: center;
+      background-color: #92CCCD;
+    }
+    br { 
+      display:block; 
+    }
+}
