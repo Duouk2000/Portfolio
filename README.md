@@ -2,9 +2,9 @@
 
 ## Description
 
-The aim of this project is to set up a Portfolio page that showcases my work and is viewable on desktop and mobile devices.
+The aim of this project is to set up a Portfolio page that showcases my work and is viewable on both desktop and mobile devices.
 
-The website can be view [here](https://duouk2000.github.io/marketing-code-refactoring/portfolio)
+The website can be viewed [here](https://duouk2000.github.io/Portfolio/)
 
 ## Installation
 
@@ -12,22 +12,20 @@ NA
 
 ## Usage
 
-The website first contains my name and avatar image. Links to other parts of the webpage and CV are also at the top of the page. I have added an about section and greated a Flex Grid showcasing my projects. Click on the image titled "Code Refracturing" to be taken to that website. Future projects will be aded to this website as I create them.
+The website first contains my name and avatar image. Links to other parts of the webpage and CV are also at the top of the page. I have added an about section and created a Flex Grid showcasing my projects. Click on the image titled "Code Refracturing" to be taken to that website. Future projects will be aded to this website as I create them.
 
-Links for emails ming, and to my GitHub and LinkedIn are at the bottom of the page.
+Links for contacting me via email and for accessing my GitHub and LinkedIn are at the bottom of the page.
 
-![screenshot showing the webpage, right-click contect menu and developer console](images/screenshot.jpg)
+![screenshot showing the webpage, right-click contect menu and developer console](assets/images/screenshot.jpg)
     
 ## Credits
 
-- Websites used to review and test HTML elements and CSS properties - [w3schools](https://www.w3schools.com/html/default.asp) /
+- Websites used to review and test FlexBoxes / FlexGrids and VAR code - [w3schools](https://www.w3schools.com/html/default.asp) /
 [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Learn/HTML)
-
-- Code was considated in CSS on line 72, 123 and 134 after viewing the example at  [stack overflow](https://stackoverflow.com/questions/72525987/how-can-i-combine-css-code-with-similar-class#:~:text=You%20can%20use%20commas%20to,used%20for%20the%20div%20tag).
 
 - Websites reviewed to help  generate a badge - [Shields.io](https://shields.io/badges) & [lukas-h github](https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba)
 
-- Sachin Jhaverifor for tutoring me and helping with my questions regarding flex grids and link alignment in when scaling to mobile devices.
+- Sachin Jhaverifor for tutoring me and helping with my questions regarding FlexGrids and link alignment in when scaling to mobile devices.
 
 ## License
 
