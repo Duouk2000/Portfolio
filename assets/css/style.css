@@ -19,7 +19,7 @@ header {
 
 .myAvatar {
   display:flex;
-  background-image: url(../assets/images/avatar.jpg);
+  background-image: url(../images/avatar.jpg);
   background-size: 80px;
   background-repeat: no-repeat;
   width: 20%;
@@ -81,7 +81,7 @@ nav ul li {
 .hero-banner {
   height: 200px;
   width: 100%;
-  background-image: url(../assets/images/02-hero-bg.jpg);
+  background-image: url(../images/02-hero-bg.jpg);
   background-position: center;
   background-size: 2000px;
 }
@@ -131,13 +131,13 @@ p {
   opacity: .7
 }
 
-/* hides the image parts displaying outside of the grid area */
+/* hides the image when displaying outside of the grid area */
 .image-wrapper {
   position: relative;
   overflow: hidden;
 }
 
-/* turns everything dispalayed within the grid area into a clickable hyperlink */
+/* turns everything dispalayed within the grid area into a clickable link */
 .image-wrapper a {
   position: absolute;
   top: 0;
@@ -146,7 +146,7 @@ p {
   height: 100%;
 }
 
-/* increases the transparency when the mouse hovers over the image */
+/* increases the transpaercny whent he mouse hovers over the image */
 #coderefracting:hover {
   opacity: 1;
   cursor: pointer;
@@ -172,7 +172,7 @@ p {
 
 #project-2 {
   grid-area: project-2;
-  background-image: url(../assets/images/02-portfolio-2.jpg);
+  background-image: url(../images/02-portfolio-2.jpg);
   opacity: .7
 }
 
@@ -183,7 +183,7 @@ p {
 
 #project-3 {
   grid-area: project-3;
-  background-image: url(../assets/images/02-portfolio-3.jpg);
+  background-image: url(../images/02-portfolio-3.jpg);
   opacity: .7
 }
 
@@ -194,7 +194,7 @@ p {
 
 #project-4 {
   grid-area: project-4;
-  background-image: url(../assets/images/02-portfolio-4.jpg);
+  background-image: url(../images/02-portfolio-4.jpg);
   opacity: .7
 }
 
@@ -205,7 +205,7 @@ p {
 
 #project-5 {
   grid-area: project-5;
-  background-image: url(../assets/images/02-run-buddy.jpg);
+  background-image: url(../images/02-run-buddy.jpg);
   opacity: .7
 }
 
@@ -233,7 +233,7 @@ p {
   align-items: center;
 }
 
-/* style for mobile phone devices */
+/* style for mobile devices */
 @media only screen and (max-width: 600px) {
     #categoryGrid {
     grid-template-rows: 300px 300px 300px 300px 300px;
@@ -286,7 +286,7 @@ p {
     }
 }
 
-/* style for tablet devices */
+/* style for larger mobile devices such as tablets */
 @media only screen and (min-width:700px) and (max-width: 1200px) {
   #categoryGrid {
   grid-template-rows: 300px 300px 300px 300px 300px;
