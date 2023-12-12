@@ -128,23 +128,25 @@ p {
 /* lowers the transparency of the image */
 #coderefracting {
   grid-area: coderefracting;
+  background-image: url(../assets/images/code-refraction.jpg);
   opacity: .7
 }
 
 /* hides the image parts displaying outside of the grid area */
-.image-wrapper {
-  position: relative;
-  overflow: hidden;
-}
+/* #image-wrapper {
+  /* position: relative;
+  overflow: hidden; */
+  
+} */
 
 /* turns everything dispalayed within the grid area into a clickable hyperlink */
-.image-wrapper a {
+/* .image-wrapper a {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-}
+} */
 
 /* increases the transparency when the mouse hovers over the image */
 #coderefracting:hover {
@@ -275,14 +277,8 @@ p {
       display:block; 
     }
 
-    .contactMobile {
-      display: flex;
-      font-size: 10px;
-      padding-left: 0px;
-    }
-
-    .navContact {
-      color: aqua;
+    .page-section-contact {
+      display: block;
     }
 }
 
@@ -320,10 +316,8 @@ p {
     justify-content: center;
     }
 
-  .contactMobile {
-   display: flex;
-   font-size: 10px;
-   padding-left: 0px;
+    .navContact {
+    display:flex;
+    flex:wrap;
+    }
   }
-
-}
